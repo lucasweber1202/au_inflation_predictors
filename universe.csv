@@ -1,0 +1,8 @@
+role,series_id,name,source,collector_repo,frequency,history_start,latest_verified,release_lag,pit_limit,expected_sign,priority,status,coverage_note
+target,ABS_CPI_A130393720C,All groups CPI,ABS Table 3,collector_abs_cpi,monthly,2024-04,2026-07,ABS monthly release,current workbook revises history; historical vintages unavailable,,P0,active,Index level; target draft requires weights and quarterly reconciliation
+predictor,RBA_F01_FIRMMCRT,Cash rate target,RBA F1.1,collector_rba_au,monthly,1990-08,2026-08,RBA monthly workbook,current workbook backfill is not historical PIT,ambiguous,P1,active,Monetary policy transmits with lag
+predictor,RBA_F01_FIRMMCRI,Interbank overnight rate,RBA F1.1,collector_rba_au,monthly,1976-05,2026-08,RBA monthly workbook,current workbook backfill is not historical PIT,ambiguous,P2,active,Financial conditions
+predictor,RBA_F15_FRERTWI,Real trade-weighted exchange rate,RBA F15,collector_rba_au,quarterly,1970-06,2026-06,RBA quarterly workbook,revised real exchange index; use observed vintage only,negative,P1,active,Appreciation may lower imported prices
+predictor,RBA_F15_FRERIWI,Real import-weighted exchange rate,RBA F15,collector_rba_au,quarterly,1970-06,2026-06,RBA quarterly workbook,revised real exchange index; use observed vintage only,negative,P1,active,Import-price channel
+candidate,,Retail petrol and diesel,AIP annual retail price data,collector_aip_au,annual,,,AIP publication,official XLSX fetch presents anti-bot page in this session,positive,P1,candidate,No validated collector series yet
+candidate,,Terminal gate petrol and diesel,AIP terminal gate price data,collector_aip_au,daily,,,AIP publication,official XLSX fetch presents anti-bot page in this session,positive,P1,candidate,No validated collector series yet
