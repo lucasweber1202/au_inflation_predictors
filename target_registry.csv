@@ -1,0 +1,2 @@
+series_id,frequency,collector_repo,status,truth_vintages
+ABS_CPI_A130393720C,monthly,collector_abs_cpi,active,persisted collector vintages; explicit truth_as_of

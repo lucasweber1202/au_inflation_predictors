@@ -1,0 +1,7 @@
+{
+  "target": "ABS_CPI_A130393720C",
+  "models": ["mean", "last", "ar", "arx"],
+  "pit_mode": "strict",
+  "order": 1,
+  "validation": "expanding pseudo-OOS; explicit origins and truth_as_of"
+}
