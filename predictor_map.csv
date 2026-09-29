@@ -1,0 +1,9 @@
+series_id,collector_repo,frequency,status,hypothesis,priority,target_frequency,aggregation,transformation,lag,availability_rule
+RBA_F01_FIRMMCRT,collector_rba_au,monthly,active,Monetary policy transmits with lag,P1,monthly,last,level,0,observed_as_of_origin
+RBA_F01_FIRMMCRI,collector_rba_au,monthly,active,Financial conditions,P2,monthly,last,level,0,observed_as_of_origin
+RBA_F15_FRERTWI,collector_rba_au,quarterly,active,Appreciation may lower imported prices,P1,monthly,PENDING_RESEARCH,PENDING_RESEARCH,PENDING_RESEARCH,PENDING_RESEARCH
+RBA_F15_FRERIWI,collector_rba_au,quarterly,active,Import-price channel,P1,monthly,PENDING_RESEARCH,PENDING_RESEARCH,PENDING_RESEARCH,PENDING_RESEARCH
+AIP_RETAIL_PETROL_NATIONAL,collector_aip_au,annual,active,Context only for a monthly nowcast; 24 calendar years; fetched unattended over HTTPS,P2,monthly,PENDING_RESEARCH,PENDING_RESEARCH,PENDING_RESEARCH,PENDING_RESEARCH
+AIP_TGP_PETROL_NATIONAL,collector_aip_au,daily,active,5932 business days; fetched unattended over HTTPS; wholesale lead on pump prices,P1,monthly,mean,level,0,observed_as_of_origin
+AIP_TGP_DIESEL_NATIONAL,collector_aip_au,daily,active,5932 business days; fetched unattended over HTTPS; freight/transport cost channel,P1,monthly,mean,level,0,observed_as_of_origin
+ABS_CPI_A130390094A,collector_abs_cpi,monthly,active,housing services,P1,monthly,last,level,0,observed_as_of_origin

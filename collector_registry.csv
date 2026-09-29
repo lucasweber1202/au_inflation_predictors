@@ -1,0 +1,4 @@
+collector_repo,country,status,contract,blocker
+collector_abs_cpi,AUD,active,metadata + time_series + logs,
+collector_aip_au,AUD,active,metadata + time_series + logs,
+collector_rba_au,AUD,active,metadata + time_series + logs,
